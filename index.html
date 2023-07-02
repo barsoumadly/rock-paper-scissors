@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="styleSheet" href="style.css" />
+    <link rel="icon" type="icon/x-image" href="rock-paper-scissors.ico" />
+  </head>
+  <body>
+    <div class="container">
+      <button class="new-game" type="button" class="btn-rock">New Game</button>
+      <div class="images">
+        <div class="computer">
+          <p class="players">Comp</p>
+          <img class="computer-img" src="stoneComputer.png" />
+        </div>
+        <div class="player">
+          <p class="players">You</p>
+          <img class="player-img" src="stonePlayer.png" />
+        </div>
+      </div>
+      <div class="points">
+        COMPUTER <span class="computer-points">0</span> /
+        <span class="player-points">0</span> PLAYER
+        <p class="winner hide">computer's win</p>
+      </div>
+      <div class="options">
+        <button type="button" class="btn-rock">ROCK</button>
+        <button type="button" class="btn-paper">PAPER</button>
+        <button type="button" class="btn-scissor">SCISSORS</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
